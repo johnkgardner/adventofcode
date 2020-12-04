@@ -23,8 +23,6 @@ for line in lines:
    # when our line is falsy, when the passport has ended and it is time to check if its valid. Need to check if we are on the last line as that wont eval to falsy
    if not line or (line == lines[len(lines)-1]):
       if valid(passport): 
-         print(passport)
-         print("OK")
          count += 1
       passport = {} # clear the passport! On to the next one. 
       
