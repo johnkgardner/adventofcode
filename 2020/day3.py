@@ -1,8 +1,8 @@
 # https://adventofcode.com/2020/day/3
 
 # Read Input
-input = open("day3.txt", "r")
-lines = [ln[:-1] for ln in input.readlines() ] # needed to get lines with no \n at end
+data = open("day3.txt", "r")
+lines = [ln[:-1] for ln in data.readlines() ] # needed to get lines with no \n at end
 
 
 #Part 1: 
