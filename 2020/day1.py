@@ -33,5 +33,5 @@ for i in range(len(data)):
       if complement in tbl: 
          print(data[i] * data[j] * complement)
          quit()
-      tbl[data[i]] = data[i]
       tbl[data[j]] = data[j] 
+   tbl[data[i]] = data[i]
