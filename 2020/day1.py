@@ -1,3 +1,5 @@
+# https://adventofcode.com/2020/day/1
+
 # Read Input In
 data = open('input.txt', 'r').read()
 data = [int(n) for n in data.split()]
