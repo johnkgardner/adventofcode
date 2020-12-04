@@ -4,13 +4,11 @@
 data = open('input.txt', 'r').read()
 data = [int(n) for n in data.split()]
 
-
 #Part 1: O(N*N) 
 for i in range(len(data)): 
    for j in range(i+1, len(data)): 
       if data[i]+data[j] == 2020:
          print(data[i]*data[j])
-
 
 # Part 2: O(N*N*N)
 for i in range(len(data)):
@@ -19,7 +17,6 @@ for i in range(len(data)):
          if data[i] + data[j] + data[k] == 2020: 
             print(data[i]*data[j]*data[k])
              
-
 #Part 1 Redo: O(N)
 tbl = {}
 for i in range(len(data)): 
